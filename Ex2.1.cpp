@@ -14,7 +14,6 @@ struct BankAccount{
 };
 
 void getAccountInfo(BankAccount* acc) {
-	cout << "<== Enter information for a new account ==>\n";
 	cout << "ID: ";
 	getline(cin, acc->id);
 	cout << "Owner's name: ";
